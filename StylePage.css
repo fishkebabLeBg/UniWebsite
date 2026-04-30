@@ -1,0 +1,101 @@
+  body {
+    margin: 0;
+        background-color: #000000;
+      text-align: center;
+font-family: sans-serif}
+        
+    
+.Header{  
+        
+        background-color: #020202;
+  display: flex;
+   justify-content: space-between;
+  align-items: center;
+    padding: 10px 20px;
+       }
+.Name img {
+  height: 60px
+  
+  
+   
+   
+    
+}
+.Contact {
+  padding: 10px 10px;
+
+  border: solid 5px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: right;
+  transition: 0.3s
+  
+
+  }
+.Video{
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  padding: 10px;
+  width: 80%
+}
+.Video video {
+  width: 100%;
+   height: 100%;
+  border: 10px solid black
+}
+video:hover {
+   box-shadow: 0 6px 20px rgba(187, 0, 67, 0.6)
+
+  
+}
+a {display: inline-block;
+  padding: 5px 5px;
+  color: white;
+  background-color: #000000;
+  text-decoration: none;
+ 
+
+  
+ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+  
+}
+a:hover {
+  background-color: #ffffff;
+  color: #000000;
+ transform: scale(1.05);
+ box-shadow: 0 6px 20px rgba(187, 0, 67, 0.6)
+}
+.About {
+  display: flex;
+  width:  70%;
+ position: relative;
+  margin: 100px auto;
+  gap: 20px;
+  
+
+  
+
+  font-family: sans-serif ;
+  color: white
+}
+.AboutP {
+  margin: auto;
+display:inline}
+  
+.About img {
+width: 30%;
+height: auto;
+
+}
+.About a {
+  transition:  0.3s;
+  font-size: xx-large;
+}
+
+
+
+
+
+
